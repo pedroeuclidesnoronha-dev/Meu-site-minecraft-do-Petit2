@@ -1,0 +1,107 @@
+
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #3fa34d;
+  color: #fff;
+}
+
+/* Cabeçalho */
+header {
+  background: #2e7d32;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  text-shadow: 2px 2px #000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+/* Seções */
+.secao {
+  padding: 40px;
+  text-align: center;
+  background: #6b4226;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+h2 {
+  color: #ffeb3b;
+}
+
+.mc-img {
+  width: 350px;
+  border: 5px solid #000;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Botão */
+button {
+  background: #4caf50;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #388e3c;
+}
+
+/* Lista */
+ul {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Formulário */
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+form button {
+  margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+  background: #1b5e20;
+  text-align: center;
+  padding: 15px;
+}

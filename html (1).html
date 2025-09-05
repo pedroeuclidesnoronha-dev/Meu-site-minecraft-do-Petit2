@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mundo Minecraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>🌍 Mundo Minecraft 🌍</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção Início -->
+  <section id="inicio" class="secao">
+    <h2>Bem-vindo ao Mundo Minecraft!</h2>
+    <p>O jogo onde a imaginação não tem limites. Construa, explore e sobreviva!</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Minecraft Capa" class="mc-img">
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="secao">
+    <h2>Sobre o Minecraft</h2>
+    <p>Minecraft é um jogo lançado em 2011 por Markus "Notch" Persson. Ele combina criatividade e sobrevivência em um mundo feito de blocos. 
+    Hoje pertence à Mojang Studios (Microsoft) e é um dos jogos mais jogados do planeta.</p>
+    <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_Hero-Image_2021.jpg" alt="Minecraft Mundo" class="mc-img">
+  </section>
+
+  <!-- Seção Curiosidades -->
+  <section id="curiosidades" class="secao">
+    <h2>Curiosidades</h2>
+    <button onclick="mostrarCuriosidade()">Gerar curiosidade</button>
+    <p id="curiosidade"></p>
+  </section>
+
+  <!-- Seção Dicas -->
+  <section id="dicas" class="secao">
+    <h2>Dicas para jogar melhor</h2>
+    <ul>
+      <li>🌳 Sempre colete madeira no início para craftar ferramentas.</li>
+      <li>🏠 Construa um abrigo antes da primeira noite.</li>
+      <li>⚔️ Faça uma espada e armadura para se proteger dos monstros.</li>
+      <li>💎 Cave em busca de minérios preciosos como ferro e diamante.</li>
+      <li>🔥 Leve tochas para não se perder nas cavernas.</li>
+    </ul>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="secao">
+    <h2>Entre em contato</h2>
+    <form>
+      <label>Nome:</label><br>
+      <input type="text" placeholder="Digite seu nome"><br><br>
+      <label>Mensagem:</label><br>
+      <textarea placeholder="Escreva sua mensagem..."></textarea><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Feito por Pedro 😎 | Site de fãs do Minecraft</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
